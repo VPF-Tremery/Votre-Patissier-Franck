@@ -1,0 +1,53 @@
+# V.P.F. — Site de pâtisserie
+
+## Ce que contient cette première version
+
+- `index.html` : la page du site
+- `styles.css` : le design
+- `products.js` : la liste des gâteaux et leurs prix
+- `assets/` : les images
+- `maquette-reference.png` : la maquette choisie
+
+## Modifier les gâteaux
+
+Le fichier le plus important est `products.js`.
+
+Pour changer un gâteau, modifie par exemple :
+
+name: "Fraisier"
+description: "Un gâteau frais et généreux aux fraises."
+price: "25 €"
+
+Pour ajouter un gâteau, copie un bloc existant et change son nom, sa description,
+son prix et son image.
+
+## Modifier l'offre spéciale
+
+Dans `index.html`, cherche :
+
+À l’occasion de la venue du pape en France
+15 €
+
+Tu peux modifier directement ce texte et le prix.
+
+## Modifier l'adresse e-mail
+
+L'adresse actuelle est :
+test.patisserie@hotmail.fr
+
+Elle apparaît dans le bouton de commande et dans la section Contact.
+
+## QR code
+
+Le QR code ne doit être créé qu'après avoir choisi l'adresse internet définitive.
+Une fois le site publié à une adresse fixe, par exemple :
+
+https://votre-adresse.fr
+
+le QR code pointera vers cette adresse. Les modifications du contenu du site
+ne nécessiteront alors pas de changer le QR code.
+
+## Important
+
+Cette version est volontairement simple : elle ne possède pas encore de panier
+ni de paiement en ligne. Le bouton de commande ouvre un e-mail.
