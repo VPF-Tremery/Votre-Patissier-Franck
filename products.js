@@ -39,7 +39,7 @@ container.innerHTML = products.map(product => `
     <div class="card-body">
       <h3>${product.name}</h3>
       <p>${product.description}</p>
-      <div class="card-price">${product.price}</div>
+      ${product.price ? `<div class="card-price">${product.price}</div>` : ''}
     </div>
   </article>
 `).join("");
