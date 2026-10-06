@@ -15,22 +15,19 @@
 
 const products = [
   {
-    name: "Fraisier",
-    description: "Un gâteau frais et généreux aux fraises.",
-    price: "25 €",
-    image: "assets/fraisier.jpg"
+    name: "Anniversaire",
+    description: "Des gâteaux frais et généreux.",
+    image: "assets/Anniversaire.png"
   },
   {
-    name: "Tout chocolat",
-    description: "Une création gourmande pour les amateurs de chocolat.",
-    price: "22 €",
-    image: "assets/chocolat.jpg"
+    name: "Baptème, Communion, Mariage",
+    description: "Des créations gourmandes.",
+    image: "assets/Mariage.png"
   },
   {
-    name: "Tarte aux fruits",
-    description: "Une tarte fruitée et élégante.",
-    price: "20 €",
-    image: "assets/fruits.jpg"
+    name: "Toutes les Fêtes",
+    description: "Des douceurs pour toutes les occasions.",
+    image: "assets/FetesDesMeres.png"
   }
 ];
 
