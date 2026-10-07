@@ -26,7 +26,7 @@ h1,h2{font-family:"Cormorant Garamond",serif;font-weight:600}
 h1{font-size:clamp(48px,5vw,78px);line-height:.95;margin:18px 0}
 h2{font-size:clamp(38px,4vw,58px);margin:8px 0 18px}
 .intro{font-size:17px;line-height:1.8;max-width:520px}
-.hero-image img,.special-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-image img,.special-photo img{width:85%;height:85%;object-fit:cover;display:block}
 .button{display:inline-block;margin-top:24px;padding:14px 24px;background:var(--gold);color:white;border-radius:3px;font-weight:600;letter-spacing:.03em;align-self:flex-start}
 .button:hover{filter:brightness(.94)}
 .special{display:grid;grid-template-columns:1fr 1fr;background:#eadfcf}
@@ -62,7 +62,7 @@ footer span{align-self:center;font-size:12px;letter-spacing:.08em}
   .hero-image{height:330px}
   .special-copy{padding:55px 8%}
   .special-copy h2{font-size:42px}
-  .special-photo{height:330px}
+  .special-photo{height:200px}
   .products-section{padding:60px 5%}
   .products-grid{grid-template-columns:1fr}
   .card img{height:250px}
