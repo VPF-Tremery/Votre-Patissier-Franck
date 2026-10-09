@@ -79,8 +79,8 @@ footer span{align-self:center;font-size:12px;letter-spacing:.08em}
 .hero-copy {width: 100%; max-width: 1200px; margin: 0 auto; text-align: center;}
 .hero-copy .eyebrow { margin-bottom: 20px;}
 .hero-copy h1 {width: 100%; margin: 0 auto 20px;font-size: clamp(32px, 4vw, 58px);line-height: 1.2;}
-.hero-copy .intro { margin-bottom: 18px;}
-.hero-copy .message-contact { margin: 0 auto;line-height: 1.7;}
+.hero-copy .intro { margin-bottom: 18px;font-size: 24px;}
+.hero-copy .message-contact { margin: 0 auto;line-height: 1.7; font-size: 20px;}
 /* Images l'une sous l'autre */
 .galerie-creations {display: flex;flex-direction: column;gap: 30px; width: 100%;}
 .galerie-creations img { display: block;width: 100%;height: auto; object-fit: contain;}
