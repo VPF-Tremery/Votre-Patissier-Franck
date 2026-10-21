@@ -92,4 +92,9 @@ footer span{align-self:center;font-size:12px;letter-spacing:.08em}
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
+    margin: 5px;
+}
+
+.btn-pdf:hover {
+    background-color: #6f452b;
 }
