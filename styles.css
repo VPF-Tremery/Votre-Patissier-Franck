@@ -84,3 +84,12 @@ footer span{align-self:center;font-size:12px;letter-spacing:.08em}
 /* Images l'une sous l'autre */
 .galerie-creations {display: flex;flex-direction: column;gap: 30px; width: 100%;}
 .galerie-creations img { display: block;width: 100%;height: auto; object-fit: contain;}
+.btn-pdf {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #8a5838;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
